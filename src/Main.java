@@ -16,6 +16,9 @@ public class Main {
         int z = 5;
         System.out.println(++z);
         System.out.println(z);
+        String theNumberThree = "three";
+        Object o = theNumberThree;
+        int three = (int) o;
     }
 
 }
